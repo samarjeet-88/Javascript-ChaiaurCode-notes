@@ -23,9 +23,9 @@ function addTwoNumbers(numb1,numb2){
 // console.log(result)//undefined
 
 
-function addTwo(numb1,numb2){
-    return numb1+numb2
-}
+// function addTwo(numb1,numb2){
+//     return numb1+numb2
+// }
 // console.log(addTwo(3,5))
 //ANYTHONG AFTER A RETURN STATEMENT IS UNREACHABLE
 
