@@ -1,0 +1,59 @@
+// const myArr=[0,1,2,3,4,5,true,hitesh]
+//IN JAVASCRIPT ARRAYS CAN HAVE ELEMENT OF DIFFERENT TYPES
+//JAVASCRIPT ARRAYS CAN BE RESIZED
+
+const myArr=[0,1,2,3,4,5]
+const myHeors=["shaktiman","naagraj"]
+const myArr2=new Array(1,2,3,4)
+//DIFFERENT WAYS TO DEFINE AN ARRAY
+
+// console.log(myArr[1])
+//TO ACCESS THE ELEMENTS IN AN ARRAY
+
+//WHEN WE DO ANY COPY OPERATIONS IT MAKES A SHALLOW COPY
+//SHALLOW COPY=>SHALLOW COPY OF AN OBJECT IS A COPY WHOSE PROPERTIES SHARE THE SAME REFERENCE POINT
+//MEANING THAT WHEN WE COPY THAE ARRAY AND MAKE CHANGES IN THAT COPY ARRAY THEN THE ORIGINAL ARRAY IS ALSO IMPACTED
+
+//DEEP COPY=>A DEEP COPY OF AN OBJECT DO NOT SHARE THE SAME REFERENCE POINT
+
+//IN ARRAYS THERE IS A PROTOTYPE INSIDE AN PROTOTPYE(CONTAINS SOME METHODS)
+
+//ARRAY METHODS
+
+// myArr.push(6)
+// myArr.push(7)
+// myArr.pop()//REMOVES THE LAST VALUE
+
+
+// myArr.unshift(9)//INSERTS THE VALUE AT THE STARTING POINT
+//TIME CONSUMING BEACAUSE IT SHIFTS ALL THE NUMBER TO THE RIGHT BY ONE PLACE
+// myArr.shift()//REMOVES THE STARTING ELEMENT
+
+// console.log(myArr.includes(9))//=>false
+// console.log(myArr.indexOf(9))//=>-1
+//  GIVES OUTPUT AS -1 IF THE VALUE DOES NOT EXIST
+
+// const newArr=myArr.join()
+//Adds all the elements of an array into a string
+
+// console.log(myArr)//OUTPUT=>[0,1,2,3,4,5]
+// console.log(newArr)//OUTPUT=>0,1,2,3,4,5
+
+// console.log(typeof myArr)//OUTPUT=>object
+// console.log(typeof newArr)//OUTPUT=>string
+
+
+console.log("A ",myArr)//OUTPUT=>A  [ 0, 1, 2, 3, 4, 5 ]
+const myn1=myArr.slice(1,3)//=>FROM INDEX 1 TO 3(NOT INCLUDED)
+
+console.log(myn1)
+console.log("B ",myArr)
+
+const myn2=myArr.splice(1,3)//FROM INDEX 1 TO 3(INCLUDED)
+console.log("C ",myArr)
+
+//DIFFERENCE BETWEEN SLICE AND SPLICE IS THAT THE LAST INDEX IS NOT INCLUDED IN SLICE BUT IS INCLUDED IN SPLICE
+//ALSO WHEN WE MAKE ANY CHANGES IN SPLICE THE ORIGINAL ARRAY IS ALSO AFFECTED
+
+
+ 

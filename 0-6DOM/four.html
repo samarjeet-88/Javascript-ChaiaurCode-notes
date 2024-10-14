@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black;color: white;">
+    
+</body>
+<script>
+    const createNewDiv=(bgColor,divPadding)=>{
+        const div=document.createElement('div')
+        const addText=document.createTextNode("Chai aur code")
+        div.appendChild(addText)
+        div.style.backgroundColor=bgColor;
+        div.style.padding=`${divPadding}px`
+        document.body.appendChild(div);
+    }
+    createNewDiv("green",15);
+</script>
+</html>
